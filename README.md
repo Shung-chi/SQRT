@@ -1,0 +1,3 @@
+# SQRT
+This repository contains a high-quality RTL design for calculating the square root of a 16-bit fixed-point number (Q8.8 format) using the Hyperbolic CORDIC algorithm. Built upon a structured Finite State Machine with Datapath (FSMD) architecture, the system optimizes hardware area by relying exclusively on shift-and-add operations, eliminating the need for expensive multipliers. It includes automatic input dynamic range scaling and built-in error handling for negative inputs.
+  
